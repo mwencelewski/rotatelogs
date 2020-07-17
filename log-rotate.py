@@ -102,4 +102,4 @@ if __name__ == "__main__":
     robot_paths, robot_outputs = read_config()
     for keys in robot_paths.keys():
         if keys != "extensions":
-        rotate_log(path=robot_paths[keys],output=robot_outputs[keys])
+            rotate_log(path=robot_paths[keys],output=robot_outputs[keys])
