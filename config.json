@@ -1,0 +1,13 @@
+{
+    "paths": [{
+        "robot1":"./logs/",
+        "robot2":"./bkplogs/"
+    }],
+    "extensions": ".log|.html",
+    "output":[{
+        "robot1":"C:\\OutputLogs\\",
+        "robot2":"C:\\OutputLogs\\bkp\\"
+
+    }]
+        
+}
